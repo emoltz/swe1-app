@@ -1,0 +1,3 @@
+venv
+swe1_app/.env
+db.sqlite3
