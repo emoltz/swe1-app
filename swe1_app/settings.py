@@ -26,7 +26,7 @@ SECRET_KEY = str(os.environ.get('SECRET_KEY'))
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'swe1-app-dev.us-east-1.elasticbeanstalk.com/',
+    '*',
 ]
 
 
