@@ -26,7 +26,8 @@ SECRET_KEY = str(os.environ.get('SECRET_KEY'))
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*',
+    # '*',
+    'swe1-app-dev.us-east-1.elasticbeanstalk.com',
 ]
 
 
@@ -142,6 +143,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = 'static'
+
+# fixing the css admin panel issue: https://stackoverflow.com/questions/69256403/why-wont-elastic-beanstalk-render-css-for-the-django-admin-site
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
